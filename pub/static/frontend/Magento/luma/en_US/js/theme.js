@@ -1,0 +1,1 @@
+/opt/bitnami/apps/magento/htdocs/vendor/magento/theme-frontend-blank/web/js/theme.js

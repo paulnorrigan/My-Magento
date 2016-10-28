@@ -1,0 +1,49 @@
+Could not read /opt/bitnami/apps/magento/htdocs/var/composer_home/auth.json
+
+Warning: file_get_contents(/opt/bitnami/apps/magento/htdocs/var/composer_home/auth.json): failed to open stream: Permission denied in /opt/bitnami/apps/magento/htdocs/vendor/composer/composer/src/Composer/Json/JsonFile.php on line 92#0 /opt/bitnami/apps/magento/htdocs/vendor/composer/composer/src/Composer/Factory.php(191): Composer\Json\JsonFile->read()
+#1 /opt/bitnami/apps/magento/htdocs/vendor/composer/composer/src/Composer/Factory.php(282): Composer\Factory::createConfig(Object(Composer\IO\BufferIO), '/home/bitnami')
+#2 /opt/bitnami/apps/magento/htdocs/vendor/composer/composer/src/Composer/Factory.php(532): Composer\Factory->createComposer(Object(Composer\IO\BufferIO), Array, false)
+#3 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Composer/ComposerFactory.php(47): Composer\Factory::create(Object(Composer\IO\BufferIO), '/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Composer/ComposerInformation.php(362): Magento\Framework\Composer\ComposerFactory->create()
+#5 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Composer/ComposerInformation.php(375): Magento\Framework\Composer\ComposerInformation->getComposer()
+#6 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Composer/ComposerInformation.php(242): Magento\Framework\Composer\ComposerInformation->getLocker()
+#7 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/App/ProductMetadata.php(104): Magento\Framework\Composer\ComposerInformation->getSystemPackages()
+#8 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/App/ProductMetadata.php(65): Magento\Framework\App\ProductMetadata->getSystemPackageVersion()
+#9 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Console/Cli.php(81): Magento\Framework\App\ProductMetadata->getVersion()
+#10 /opt/bitnami/apps/magento/htdocs/bin/magento(22): Magento\Framework\Console\Cli->__construct('Magento CLI')
+#11 {main}
+
+Could not read /opt/bitnami/apps/magento/htdocs/var/composer_home/auth.json
+
+Warning: file_get_contents(/opt/bitnami/apps/magento/htdocs/var/composer_home/auth.json): failed to open stream: Permission denied in /opt/bitnami/apps/magento/htdocs/vendor/composer/composer/src/Composer/Json/JsonFile.php on line 92#0 /opt/bitnami/apps/magento/htdocs/vendor/composer/composer/src/Composer/Factory.php(191): Composer\Json\JsonFile->read()
+#1 /opt/bitnami/apps/magento/htdocs/vendor/composer/composer/src/Composer/Factory.php(282): Composer\Factory::createConfig(Object(Composer\IO\BufferIO), '/home/bitnami')
+#2 /opt/bitnami/apps/magento/htdocs/vendor/composer/composer/src/Composer/Factory.php(532): Composer\Factory->createComposer(Object(Composer\IO\BufferIO), Array, false)
+#3 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Composer/ComposerFactory.php(47): Composer\Factory::create(Object(Composer\IO\BufferIO), '/opt/bitnami/ap...')
+#4 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Composer/ComposerInformation.php(362): Magento\Framework\Composer\ComposerFactory->create()
+#5 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Composer/ComposerInformation.php(375): Magento\Framework\Composer\ComposerInformation->getComposer()
+#6 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Composer/ComposerInformation.php(242): Magento\Framework\Composer\ComposerInformation->getLocker()
+#7 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/App/ProductMetadata.php(104): Magento\Framework\Composer\ComposerInformation->getSystemPackages()
+#8 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/App/ProductMetadata.php(65): Magento\Framework\App\ProductMetadata->getSystemPackageVersion()
+#9 /opt/bitnami/apps/magento/htdocs/vendor/magento/framework/Console/Cli.php(81): Magento\Framework\App\ProductMetadata->getVersion()
+#10 /opt/bitnami/apps/magento/htdocs/bin/magento(22): Magento\Framework\Console\Cli->__construct('Magento CLI')
+#11 {main}
+
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.
+Command line user does not have read and write permissions on var/generation directory.  Please address this issue before using Magento command line.

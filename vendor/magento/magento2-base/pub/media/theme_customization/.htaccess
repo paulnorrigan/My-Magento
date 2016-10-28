@@ -1,0 +1,6 @@
+#For performance and security reasons, this file will have no effect, it's just meant for use in development environments
+Options All -Indexes
+<Files ~ "\.xml$">
+    Order allow,deny
+    Deny from all
+</Files>
